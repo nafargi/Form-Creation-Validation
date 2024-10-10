@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded",function(){
 
     const form = document.getElementById("registration-form");
-    const feedbackDiv = document.getElementById("feedback");
+    const feedbackDiv = document.getElementById("form-feedback");
     let isValid ;
     let messages ;
 
@@ -43,4 +43,4 @@ document.addEventListener("DOMContentLoaded",function(){
 
     });
 
-});  https://github.com/nafargi/Form-Creation-Validation.git
+}); 
