@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded",function(){
     const feedbackDiv = document.getElementById("form-feedback");
     let isValid ;
     let messages ;
-
     form.addEventListener("submit", function(event){
         event.preventDefault();
 
